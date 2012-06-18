@@ -1,0 +1,34 @@
+/* CSS Document */
+.form-options {background:#fafafa; border-bottom:1px solid #ccc;  margin:0px; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 10px;}
+.form-options .divider {background: #ccc; padding:1px 0 0px;margin: 5px 0 10px;}
+.form-options span{ color:#333; font-weight: 900; letter-spacing: -1px;font-size:12px;}
+.form-options #form-builder{ color:#777; font-weight: normal; letter-spacing: -1px;font-size:11px; width: 120px; }
+.form-options .button-edit { cursor:pointer; text-transform:uppercase; width: 30px; height: 20px; background: none;font-weight: bold; letter-spacing: -1px;color: #d54e38;border: none!important; text-decoration: underline;}
+
+.form-options .buttonselect {margin-top:0px; float: left;display:inline-block;  background:url(i/add-dropdown.png) no-repeat!important;  float:right; cursor:pointer; width: 126px; height: 42px; text-indent: -9999px;border: none;} 
+.form-options .buttonfield {margin-top:0px; float: left;display:inline-block;  background:url(i/add-textfield.png) no-repeat!important;  float:right; cursor:pointer; width: 119px; height: 42px; text-indent: -9999px;border: none;}
+.form-options .buttontext {margin-top:0px; float: left;display:inline-block;  background:url(i/add-textarea.png) no-repeat!important;  float:right; cursor:pointer; width: 119px; height: 42px; text-indent: -9999px;border: none;}
+.form-options ul.right-items { float: right!important; margin-top: -46px;font-size: 12px; color: #333; font-weight: bold;letter-spacing: -1px;}
+.form-options p.info-text { font-size: 11px; color: #777;}
+.form-options ul li { float:left; margin:8px 5px 8px 4px!important; }
+.form-options ul li a { margin-top:5px; }
+.form-options ul li .element { display:none; padding: 5px!important;}
+#formbuilder { padding:20px 20px 10px; }
+#formbuilder .hide { display:none; }
+#formbuilder input[type=radio] , #formbuilder  select { display:block; }
+#formbuilder .hades_input { border-bottom:none; margin:4px 10px; padding:10px 0px 5px 0px; border:1px solid transparent; position:relative; }
+#formbuilder .hades_input select{ padding:5px!important; line-height: 24px; height: 30px!important;}
+#formbuilder .hades_input label { position:relative;}
+#formbuilder .hades_input label input[type=text] { position:absolute; top:-5px; left:0; width:200px; display:none; }
+#formbuilder .hades_input .remove { background:url(i/component-delete.png); width:16px; height:18px; position:absolute; top:0px; right:-40px; }
+
+#formbuilder .hades_input:hover { border:1px dashed #ccc;  border-radius:5px; -moz-border-radius:5px; }
+
+.form-highlight { border:1px dashed #aaa; border-radius:5px; -moz-border-radius:5px;  }
+.form-options .builder-admin-button  { margin-top:-45px; float: right;display:inline-block;  background:url(i/save-bg.png) no-repeat!important;  float:right; cursor:pointer; width: 120px; height: 40px; text-indent: -9999px;border: none;}
+
+.email_notification_mail { width:160px!important;  }
+.hide { display:none; }
+.show { }
+
+#iloader { background: url(../../css/i/89.gif); width:16px; height:16px; position:absolute; top:10px; left:10px; display:none; }

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.quartz {  overflow:visible; position:relative; display:inline-block; border:none!important;  }
+.quartz ul.mainslider { margin:0; padding:0; list-style:none; position:relative; overflow:hidden; display:block;  border:none!important;}
+.quartz ul.mainslider li { position:absolute; top:0; left:0; border:none!important;  }
+.quartz ul.mainslider li>a { margin:0; padding:0; outline:none; border:none; text-decoration:none; background:transparent; }
+
+.quartz span { display:none; left:0px; position:absolute!important; z-index:99;  }
+.quartz h1,h2,h3,h4,h5 { font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+.quartz ul li div.inline { background:#fff }
+
+.reset { z-index:1; }
+.active { z-index:5; }
+a.q-prev { background:url(i/controls.png) top left no-repeat; display:block; width:39px; height:37px; position:absolute; z-index:199; top:40%; left:0; opacity:0.3;  }
+a.q-prev:hover , a.q-next:hover { opacity:1; }
+a.q-next { background:url(i/controls.png) top right no-repeat; display:block; width:39px; height:37px; position:absolute; z-index:199;  top:40%; right:0; opacity:0.2; }
+.controls { position:absolute; bottom:-40px; }
+.controls li {   position:relative; float:left; margin:12px 3px 5px 3px; display:block; width:20px; height:20px;  background: url('i/default.png') no-repeat; text-indent:-9999px; cursor:pointer;  }
+.controls li.control_active { background: url('i/active.png') no-repeat; }
+.quartz-slider { width:920px!important; display:block; margin:0px auto;   }
+
+.quartz .description { position:absolute; bottom:20px; left:0px;  background:#111111; padding-bottom:16px; width:70%; color:#fff; font-size: 11px; padding-right:10px; }
+.quartz .description h2 { color:#fff!important; font-weight:100; margin-top:20px;  margin-left:20px; margin-bottom:5px; line-height:1.4;  font-size:18px; letter-spacing: 1px;}
+.quartz .description h2 a { color:#fff;   }
+
+.quartz .description small { color:#969aa5; font-size:11px; font-style:italic; margin-left:20px; margin-top:5px; display:blockl }
+.quartz .description small a { color:#fff; }
+.quartz .description p { display:block; margin-left:20px; line-height:1.5; color:#fff; }
+.quartz .description a.more-link { background:url(sprites/i/more-bg-slice.jpg) repeat-x #eeeeee; border-radius:4px; -moz-border-radius:4px; color:#000; padding:6px 12px; font-size:9px; font-weight:900; text-transform:uppercase;  display:inline-block; float:right; margin-top:30px; margin-right:20px; }

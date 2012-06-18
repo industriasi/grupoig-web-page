@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+.sidemenu li.active a{ background:url(i/active.png) center right no-repeat; color:#333; border-top-radius:4px;  border-bottom-radius:4px; -moz-border-radius:4px; -moz-border-radius:4px;border: 1px solid #aaa;}
+
+/* CSS Document */
+
+/* >> The Magnificent CLEARFIX << */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; *zoom:1;}
+* html .clearfix { height: 1%; } /* Hides from IE-mac \*/
+.clearfix { display: block; }
+
+/* -------------------------------------- Reset -------------------------------------  */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header, 
+hgroup, menu, nav, section, menu,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}                  
+
+article, aside, figure, footer, header, 
+hgroup, nav, section { display:block; }
+
+ul { list-style:none; 
+	 padding-bottom: 20px;
+	 padding-top: 10px;
+}	
+
+blockquote {  }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content:''; content:none; }
+
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; color:#0096ff; text-decoration:none; }
+ins { background-color:#ff9; color:#000; text-decoration:none; }
+mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom:1px dotted #000; cursor:help; }
+table { border-collapse:collapse; border-spacing:0; }
+hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
+input, select { vertical-align:middle; }
+input[type=submit] { outline:none; border:none; }
+input:focus , textarea:focus { outline:none; }
+/* -------------------------------------- End of Reset -------------------------------------  */
+
+/* -------------------------------------- Typography -------------------------------------------*/
+
+body { font-family:"Lucida Grande","Lucida Sans Unicode",  sans-serif ; color:#888888; line-height:1.6; font-size:11px; font-smooth:always; margin-top: 20px;   }
+
+h1 { color:#1e1e1e; font-size:30px; letter-spacing: -1px; font-weight:100;  }
+h2 { color:#1e1e1e; font-size:24px; letter-spacing: -1px; font-weight:100;}
+h3 { color:#1e1e1e; font-size:18px; letter-spacing: -1px; font-weight:100;margin-top: 20px;}
+h4 { color:#0096ff; font-size:14px; letter-spacing: -1px; font-weight:70000;margin-top: 20px;margin-left: 20px;}
+h5 { color:#1e1e1e; font-size:12px; letter-spacing: -1px; font-weight:100;margin-left: 10px;}
+h6 { color:#1e1e1e; font-size:10px; letter-spacing: -1px; font-weight:100;}
+/* -------------------------------------- Layout  -------------------------------------------*/
+.container { width:980px ; margin-left:auto; margin-right:auto; padding:0px; position:relative;  }
+
+.half-col { width:460px; float:left; margin:10px 5px;   padding:10px 5px; }
+.one-third {  width:304px; float:left; margin:10px 5px;  padding:10px 5px; }
+.one-fourth {  width:225px; float:left; margin:10px 5px;   padding:10px 5px; }
+.two-third {  width:636px;  float:left; margin:10px 5px;  padding:10px 5px;  }
+.three-fourth {  width:700px; float:left; margin:10px 5px;   padding:10px 15px; }
+.three-fourth p{  margin:10px 10px 20px;}
+.three-fourth blockquote{  font-family: Georgia; font-size: 12px; color: #0096ff; padding: 20px 40px; display: block;text-align: center; font-style: italic!important; }
+.three-fourth em{  color: #0096ff; font-style: italic!important; }
+.three-fourth strong{  color: #111; }
+.three-fourth li {
+	display: block;
+	margin: 0 12px 10px 0;
+	margin-left: 20px;
+}
+
+.three-fourth p.red{
+	color: #b62601;
+	font-weight: bold;
+}
+
+.three-fourth pre {
+	background: #fafafa;
+	border: 1px dashed #ddd;
+	padding: 10px;
+	text-shadow: 1px 1px 1px #fff;
+	width: 660px;
+}
+
+.three-fourth ul li li{
+	margin-left: 20px!important;
+}
+span.blue{  color: #0096ff!important; }
+.half-col .one-fourth { width:216px; padding:0px 3px; margin:3px;  }
+img {
+	margin: 10px 0;
+}
+.left { float:left; }
+.right { float:right;  }
+img.right { margin:16px 20px 0px 10px; }
+.marginv { margin-top:20px; margin-bottom:80px; }
+.padding-10v { padding:10px 0px; }
+.padding-20h { padding: 0px 20px; }
+.header { border-bottom:1px solid #d4d4d4; padding-bottom: 10px!important; margin-bottom: 10px;}
+#logo { float:left; }
+.description { float:right; width:700px; }
+.description ul li { float:left; display:block; padding:0px 10px; margin:6px 2px; line-height:1.2; color:#414141; font-weight: 700;}
+.description ul li:first-child { border-right:1px solid #8d8d8d; }
+.description p { padding:10px; color:#aaaaaa; font-family:Georgia, "Times New Roman", Times, serif; font-size:11px; font-style:italic; } 
+
+.sidemenu { position:fixed; }
+
+.sidemenu ul { display:block; float:right; margin-top:0px; padding-right:10px;  }
+.sidemenu ul li { display:block;  text-align:right; font-size:11px; margin:7px 0px; }
+.sidemenu ul li a { color:#414141; padding:2px 16px 3px 16px; display:inline-block; border-top-left-radius:4px;  border-bottom-left-radius:4px; -moz-border-radius-bottomleft:4px; -moz-border-radius-topleft:4px; line-height:1.4; }
+
+.main-container  { margin-left:230px;  }

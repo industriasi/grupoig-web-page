@@ -1,0 +1,46 @@
+/* CSS Document */
+
+/* >> The Magnificent CLEARFIX << */
+ .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+ .clearfix { display: inline-block; *zoom:1;}
+* html .clearfix { height: 1%; } /* Hides from IE-mac \*/
+ .clearfix { display: block; }
+
+#slider_manager_wrap #slidermanager { width:800px;  background:#fafafa;  border:1px solid #ccc; margin:17px 25px 30px 22px; -moz-border-radius:5px;  -moz-border-radius:5px; border-top-radius:5px; border-top-radius:5px; -moz-box-shadow:0px 0px 2px #ddd; padding-bottom: 10px;}
+#slider_manager_wrap #slidermanager .toppanel {  background:#fafafa;height:80px ;  position:relative; z-index:2;   -moz-border-radius-topleft:5px;  -moz-border-radius-topright:5px; border-top-left-radius:5px; border-top-right-radius:5px; border-bottom:1px solid #cfcfcf; }
+
+
+#slider_manager_wrap #slidermanager #addslide { display:inline-block; padding:7px 10px!important; background:url(i/add.png) top right no-repeat;   important;  margin-bottom:22px;   margin-left:60px;  cursor:pointer; text-decoration:none; position:absolute; top:19px; right:6px; text-indent: -9999px;  width: 60px; height: 37px;border: none!important;}
+
+#slider_manager_wrap #slidermanager .button-submit { display:inline-block; background:url(i/save.png) top right no-repeat; text-indent: -9999px;  padding:5px 0 0px; float:right;   margin:8px 20px 0px 0px; width: 60px; height: 37px;  cursor:pointer; position:absolute; top:19px; right:48px; border: none!important;}
+
+.move-icon { background:url(i/move.png); display:block; width:34px; height:30px; float:right; margin:7px 10px 0px 0px; cursor:move; }
+
+.slide-head { height:43px; background:#ffffff; border-bottom:1px solid #cecece; }
+
+#slider_manager_wrap #slidermanager .slider-lists ul li { margin:0; padding:0; }
+
+.delete-slide-button { background:url(i/delete.png) top right no-repeat; text-indent: -9999px;  padding:5px 0 0px; float:right;   margin:7px 10px 0px 0px; width: 64px; height: 30px;}
+a.delete-slide-button:hover { color:#fff;  }
+
+.min-slide-button { background:url(i/toggle-minimized.png) top right no-repeat; text-indent: -9999px;  padding:5px 0 0px; float:right;   margin:7px 10px 0px 0px; width: 80px; height: 30px; }
+.max-slide-button { background: url(i/toggle-maximized.png) top right no-repeat; text-indent: -9999px;  padding:5px 0 0px; float:right;   margin:7px 10px 0px 0px; width: 71px; height: 30px; }
+
+.custom-select {  border:1px solid #cad9df; -moz-box-shadow:0px 0px 0px 2px #f2f2f2;  box-shadow:0px 0px 0px 2px #f2f2f2;  -webkit-box-shadow:0px 0px 0px 2px #f2f2f2; }
+
+.imageholder { width:600px; float:left; padding:5px 10px 10px 0; }
+.imageholder img { display:block; width:650px; height:250px; border:5px solid #fff; -moz-box-shadow:1px 1px 2px #bbb; }
+.imageholder span { font:12px; color:#333; font-weight: bold; letter-spacing: -1px; display:block;  margin-left:21px; margin-bottom:5px; }
+.selection { width:400px; float:left; padding:30px 10px 30px 20px; }
+.selection label { float:left; display:inline-block; margin-top:3px; margin-right:4px; font-weight: bold; letter-spacing: -1px; color: #333;  }
+.info-panel { border-bottom:1px solid #e4e4e4; }
+.separator { border-bottom:1px solid #e4e4e4; padding:10px 10px; }
+.lseparator { padding:10px; }
+.separator label , .separator input[type=text] , .separator input[type=file] , .lseparator label , .lseparator textarea { float:left; }
+.separator label , .lseparator label { margin-top:4px; width:100px; }
+.lseparator textarea  , .separator input[type=text]{ width:400px; }
+.drag-highlight { height:43px; background:#f4f4f4; border:1px dashed #111; border-radius:4px; -moz-border-radius:4px; }
+#slider_manager_wrap #slidermanager .inputs {border:1px solid #eee; color:#666666;padding: 5px; font-size: 11px;}
+#slider_manager_wrap #slidermanager label {font-weight: bold; letter-spacing: -1px; color: #333;}
+.slide-hide { display:none; }
+.image-url { font-size:11px; font-style:italic; color:#333;  margin-top:5px; margin-left:10px; float:left;  }

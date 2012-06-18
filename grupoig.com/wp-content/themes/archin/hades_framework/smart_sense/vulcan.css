@@ -1,0 +1,25 @@
+.vexpand { width:350px; }
+.vshrink { width:120px;  }
+.vgl { width:160px; }
+.social-panel li { float:left; display:block; padding:5px 2px; } 
+.vshare-button { background: url(images/button-bg.jpg) repeat-x #ededed; display:inline-block; padding:4px 8px 0px 4px; border:1px solid #c4c4c4; border-radius:4px; -moz-border-radius:4px; color:#424242; font-weight:900; text-shadow:0px 1px 1px #fff; height:20px; font-size:9px; font-family:Arial, Helvetica, sans-serif; position:relative;  }
+
+.db-container:hover , .vshare-button:hover { border:1px solid #a7a7a7; box-shadow:0px 0px 4px #ddd; -webkit-box-shadow:0px 0px 4px #ddd; -moz-box-shadow:0px 0px 4px #ddd; }
+.tweet { background:url(images/tweet.jpg) no-repeat; display:inline-block; width:16px; height:16px; float:left; margin-right:4px; }
+.facebook { background:url(images/facebook.jpg) no-repeat; display:inline-block; width:16px; height:16px; float:left; margin-right:4px; }
+.delicious { background:url(images/delicious.jpg) no-repeat; display:inline-block; width:16px; height:16px; float:left; margin-right:4px; }
+.stumbleupon { background:url(images/stumbleupon.jpg) no-repeat; display:inline-block; width:16px; height:16px; float:left; margin-right:4px; }
+.db-copy { background:url(images/digg.jpg) no-repeat!important; display:inline-block!important; width:16px!important; height:16px!important; float:left!important; margin-right:4px!important;   opacity:1!important; text-indent:-9999px; }
+.reddit { background:url(images/reddit.jpg) no-repeat; display:inline-block; width:16px; height:16px; float:left; margin-right:4px; }
+
+.fb-trick{ display:none; }
+
+.db-container { display:block; opacity:1;  background: url(images/button-bg.jpg) repeat-x #ededed; display:inline-block; padding:4px 8px 0px 4px; border:1px solid #c4c4c4; border-radius:4px; -moz-border-radius:4px; position:relative; width:41px!important }
+
+.db-anchor , .db-digger {  display:block!important; opacity:1!important;  text-indent:0px!important; text-shadow:0px 1px 1px #fff; color:#424242; font-weight:900;  height:20px; font-size:9px; font-family:Arial, Helvetica, sans-serif; }
+
+.db-digger:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.db-digger { display: inline-block; *zoom:1;}
+* html .db-digger { height: 1%; } /* Hides from IE-mac \*/
+.db-digger { display: block; }
+.stumble{ display:none; }
